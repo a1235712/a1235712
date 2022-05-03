@@ -17,7 +17,9 @@ string strN = Console.ReadLine();
 int N = int.Parse(strN);
 
 IsPowerOfTwo(N);
-
 if (IsPowerOfTwo(N) == true) Console.Write($"{N} является степенью двойки");
 else Console.WriteLine($"{N} не является степенью двойки");
+
+// Добавили в GITHUB
+
 
